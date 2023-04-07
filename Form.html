@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./demo.css">
+
+</head>
+
+<body>
+
+    <div class="b">
+        <h1 class="head">Form Validation</h1>
+        <div class="header"><br><br>
+            <label> FirstName</label><br>
+            <input type="text" id="n1" placeholder="Name"><br>
+            <p id="n2"></p>
+            <label> lastName</label><br>
+            <input type="text" id="n3" placeholder="Enter your name"><br>
+            <p id="n4"></p>
+            <label> Phoneno</label><br>
+            <input type="text" id="n5" placeholder="Enter your phonenumber"><br>
+            <p id="n6"></p>
+            <label> DOB</label><br>
+            <input type="date" name="" id="dob" min="2023-01-01" max="2023-12-30"><br>
+            <label> Email Id</label><br>
+            <input type="text" id="n7" placeholder="Enter your email id"><br>
+            <p id="n8"></p>
+            <label> Password</label><br>
+            <input type="text" id="n9" placeholder="Enter your Password"><br>
+            <p id="n10"></p>
+            <label> ConfirmPassword</label><br>
+            <input type="text" id="n11" placeholder="Enter your confirm Password"><br>
+            <p id="n12"></p>
+
+            <div class="form-control">
+                <label for="" id="con">Country:</label>
+                <select id="country">
+                    <option value="">Select </option>
+                    <option value="America"> America</option>
+                    <option value="Bangaladesh"> Bangaladesh</option>
+                    <option value="India">India </option>
+                    <option value="Pakistan"> Pakistan</option>
+                    <option value="China">China </option>
+                </select>
+                <p style="color: red;" id="coun"></p>
+            </div>
+            <div class="form-control1">
+                <label for="" id="ter">Gender:</label><br>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">Others</label>
+                <p style="color: red;" id="gen"></p>
+
+            </div>
+             <button class="btn" onclick="myfun()" class="submit">SignUp</button>
+
+        </div>
+        <script src="./demo.js"></script>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+.head{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    color: rgb(5, 5, 5);
+}
+.a{
+    font-weight: bold;
+    text-align: center;
+    color: blue;
+    font-size: 30px;
+    font-style: italic;
+    width: 100%;
+}
+.b{
+    border-bottom: 20px;
+    background-color: pink;
+    width: 40%;
+    margin: 0 auto;
+    height: 900px;
+}
+.header{
+    width: 40%;
+    margin: 0 auto;
+}
+p{
+    color: red;
+}
+.form-control1{
+    margin-bottom:30px;
+}
+.c{
+    background-color: aqua;
+    margin-left:50px ;
+    margin-top: 40px;
+}
+.btn{
+    font-style: italic;
+    background-color: aqua;
+    padding: 10px;
+
+}
